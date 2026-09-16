@@ -1,8 +1,18 @@
-TARJETA DIGITAL JHONATAN — V4
-Esta versión reproduce mucho más fielmente el diseño de referencia enviado por el usuario.
-Datos: +57 300 887 1717 | gerencia@atlanticseguros.com.co
-Instagram: @agenciadesegurosatlantic
-Facebook: página oficial
-LinkedIn empresarial: no incluido todavía.
-La QR apunta a https://jomaonline-star.github.io/tarjeta-jhonatan/
-Publicar: reemplazar los archivos del repositorio GitHub Pages con estos archivos.
+TARJETA DIGITAL JHONATAN BONOLIS — ATLANTIC SEGUROS — V7 FINAL
+
+Esta versión parte de la V6 funcional y aplica el diseño visual aprobado:
+- Fotografía corporativa elegante y alegre.
+- Logo ATLANTIC SEGUROS real suministrado.
+- ATLÁN conservado.
+- Botones modernos y redondeados.
+- Instagram con degradado representativo.
+- Iconos relacionados con cada tipo de seguro.
+- ATLANTIC 360 destacado.
+- Diseño responsive para celular y escritorio.
+- Mantiene QR y tarjeta de contacto.
+
+PARA GITHUB:
+1. Descomprime este ZIP.
+2. Sube TODOS los archivos a la raíz del repositorio tarjeta-Jhonatan.
+3. Reemplaza los archivos existentes cuando GitHub lo pregunte.
+4. Mantén GitHub Pages en rama principal / (raíz).
