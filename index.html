@@ -170,6 +170,33 @@ h1{
 }
 </style>
 
+
+<style id="v8-contact-icons-fix">
+/* V8 — contact buttons fully visible + insurance icons refined */
+.hero{overflow:hidden;min-height:735px}
+.actions{bottom:22px;left:28px;right:28px;z-index:8}
+.action{min-height:112px;height:112px;padding:12px 6px;gap:6px;line-height:1.05}
+.action svg{width:32px;height:32px;flex:0 0 auto}
+.action small{display:block;font-size:12px;line-height:1.1}
+.wa{background:linear-gradient(145deg,#1bd06d,#10b95e)!important}
+.ig{background:linear-gradient(135deg,#833ab4 0%,#e1306c 48%,#f77737 100%)!important;color:#fff!important}
+.fb{background:#145b9d!important;color:#fff!important}
+.location{margin:34px 34px 34px}
+.tiles{gap:11px}
+.tile{min-height:112px;padding:11px 6px;font-size:13px;gap:0}
+.tile svg{width:40px;height:40px;margin-bottom:8px;stroke:var(--navy);stroke-width:1.75;stroke-linecap:round;stroke-linejoin:round}
+@media(max-width:800px){
+ .hero{min-height:700px}
+ .actions{bottom:18px;left:14px;right:14px}
+ .action{min-height:82px;height:82px;padding:8px 4px}
+ .action svg{width:27px;height:27px}
+ .action small{display:none}
+ .location{margin:28px 14px 25px}
+ .tile{min-height:98px}
+ .tile svg{width:34px;height:34px}
+}
+</style>
+
 </head>
 <body>
 <div class="page">
@@ -206,21 +233,21 @@ h1{
 <div class="service-grid">
 <div class="service people"><h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c.5-4 2.6-6 6-6s5.5 2 6 6M14 14c3-.3 5.2 1.3 6 4"/></svg> PERSONAS</h2><p>Protege lo que más te importa</p>
 <div class="tiles">
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 15h18l-1.5-5h-13L5 7H3zM5 18h3M16 18h3M6 10l1-3h10l1 3"/></svg>SOAT</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 15h18l-1.5-5h-13L5 7H3zM5 18h3M16 18h3M6 10l1-3h10l1 3"/></svg>Autos</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.2-7-10V5l7-3 7 3v6c0 5.8-7 10-7 10Z"/><path d="M8 12h8M12 8v8"/></svg>Vida</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/><path d="M12 7v10M7 12h10"/></svg>Salud</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M4 11h16v9H4zM7 11V8a5 5 0 0 1 10 0v3"/></svg>Hogar</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 11l2-4h14l2 4v7H3z"/><path d="M5 11h14M6 18v2M18 18v2M7 14h3M14 14h3"/></svg>SOAT</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 11l2-4h14l2 4v7H3z"/><path d="M5 11h14M6 18v2M18 18v2M7 14h3M14 14h3"/></svg>Autos</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M12 21s-7-4.4-7-10V5l7-3 7 3v6c0 5.6-7 10-7 10Z"/><path d="M12 8v6M9 11h6"/></svg>Vida</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M20.8 8.7c0 5.1-8.8 10.4-8.8 10.4S3.2 13.8 3.2 8.7A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6Z"/><path d="M12 8v6M9 11h6"/></svg>Salud</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9H3z"/><path d="M9 20v-6h6v6"/></svg>Hogar</div>
 <div class="tile"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M2.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6M10.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6"/></svg>Exequias</div>
 </div></div>
 <div class="service companies"><h2><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 21V5h9v16M13 9h7v12M7 8h3M7 12h3M7 16h3M16 13h2M16 17h2"/></svg> EMPRESAS</h2><p>Impulsa el futuro de tu negocio</p>
 <div class="tiles">
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 21V9l9-4 9 4v12M7 21v-7h10v7M5 9h14"/></svg>ARL</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M4 20V9l8-4 8 4v11"/><path d="M8 20v-6h8v6M6 9h12"/><path d="M12 10v4M10 12h4"/></svg>ARL</div>
 <div class="tile"><svg viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M2.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6M10.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6"/></svg>Vida Grupo</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 15h18l-1.5-5h-13L5 7H3zM5 18h3M16 18h3M6 10l1-3h10l1 3"/></svg>Autos Colectivos</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Z"/><path d="M12 7v10M7 12h10"/></svg>Salud Colectiva</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M3 11l2-4h14l2 4v7H3z"/><path d="M5 11h14M6 18v2M18 18v2M7 14h3M14 14h3"/></svg>Autos Colectivos</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M20.8 8.7c0 5.1-8.8 10.4-8.8 10.4S3.2 13.8 3.2 8.7A4.7 4.7 0 0 1 12 6.1a4.7 4.7 0 0 1 8.8 2.6Z"/><path d="M12 8v6M9 11h6"/></svg>Salud Colectiva</div>
 <div class="tile"><svg viewBox="0 0 24 24"><circle cx="8" cy="9" r="3"/><circle cx="16" cy="9" r="3"/><path d="M2.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6M10.5 20c.5-4 2.5-6 5.5-6s5 2 5.5 6"/></svg>Exequias Colectivas</div>
-<div class="tile"><svg viewBox="0 0 24 24"><path d="M5 3h14v18H5zM8 7h8M8 11h8M8 15h5"/></svg>Pólizas Empresariales</div>
+<div class="tile"><svg viewBox="0 0 24 24"><path d="M6 3h12v18H6z"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>Pólizas Empresariales</div>
 </div></div>
 </div>
 </section>
