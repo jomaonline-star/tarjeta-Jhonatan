@@ -455,7 +455,7 @@ h1{
 }
 </style>
 
-</html>
+
 <style id="v9-mobile-layout-fix">
 /* V9 — mobile-first correction: no overlap, all contact buttons visible */
 @media (max-width: 600px){
@@ -669,3 +669,36 @@ html,body{width:100%;overflow-x:hidden}
  .action svg{width:25px;height:25px;flex-basis:25px}
 }
 </style>
+<style id="v13-atlan-mobile-final">
+/* V13 — mobile: ATLÁN gets its own visual space, never behind contact buttons */
+@media (max-width:599px){
+  .mascot{
+    position:relative!important;
+    top:auto!important;
+    right:auto!important;
+    bottom:auto!important;
+    left:auto!important;
+    display:block!important;
+    width:125px!important;
+    height:auto!important;
+    max-height:none!important;
+    margin:-2px 18px 2px auto!important;
+    opacity:1!important;
+    z-index:5!important;
+    object-fit:contain!important;
+  }
+  .actions{
+    position:relative!important;
+    z-index:10!important;
+    margin-top:4px!important;
+  }
+}
+@media (max-width:380px){
+  .mascot{
+    width:112px!important;
+    margin:-2px 14px 2px auto!important;
+  }
+}
+</style>
+
+</html>
