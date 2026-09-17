@@ -15,3 +15,6 @@ INSTALACIÓN EN GITHUB:
 3. Reemplaza los existentes.
 4. Mantén GitHub Pages en principal / (raíz).
 5. Tras publicar, en móvil recarga la página para limpiar caché.
+
+
+V11: responsive mobile correction with natural flow; desktop/tablet visual preserved.
